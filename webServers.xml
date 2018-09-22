@@ -4,7 +4,15 @@
       <webServer id="3da27ae5-6f30-45c7-9c57-4baa3d3ff7ac" name="WPDivi" url="http://localhost">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
-      <webServer id="c66aa723-eabd-43f3-928d-b12dc3250166" name="intuitivedigital.site" url="http://intuitivedigital.site">
+      <webServer id="04c24898-5cce-42c3-9e07-ebf66894f11e" name="Pinpoint" url="http://intuitivedigital.site">
+        <fileTransfer host="intuitivedigital.site" port="18765" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="18765" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="df44310b-0eb0-4312-8907-bc55e648770c" name="intuitivedigital.site" url="http://intuitivedigital.site">
         <fileTransfer host="intuitivedigital.site" port="18765" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/intuit00/public_html" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
