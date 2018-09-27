@@ -28,6 +28,9 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="e1aef264-7565-47d0-8983-b1524ba2fea8" name="WP" url="http://wp.loc">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
