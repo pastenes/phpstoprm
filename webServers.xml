@@ -20,6 +20,14 @@
           <option name="port" value="18765" />
         </fileTransfer>
       </webServer>
+      <webServer id="b9678a3a-7d0e-4c52-9b96-0cb60235c5c3" name="UrbanWaxx IDS" url="http://urbanwaxx.com">
+        <fileTransfer host="urbanwaxx.com" port="18765" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/urbanwaxx/public_html/" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="18765" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
