@@ -20,16 +20,13 @@
           <option name="port" value="18765" />
         </fileTransfer>
       </webServer>
-      <webServer id="e89aae33-0e6c-462c-b49f-be0c7578518b" name="intuitivedigital.site FTP" url="http://intuitivedigital.site">
-        <fileTransfer host="intuitivedigital.site" port="21">
+      <webServer id="b9678a3a-7d0e-4c52-9b96-0cb60235c5c3" name="UrbanWaxx IDS" url="http://urbanwaxx.com">
+        <fileTransfer host="urbanwaxx.com" port="18765" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/urbanwaxx/public_html/" accessType="SFTP" keyPair="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" showHiddenFiles="true" />
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="21" />
+          <option name="port" value="18765" />
         </fileTransfer>
-      </webServer>
-      <webServer id="e1aef264-7565-47d0-8983-b1524ba2fea8" name="WP" url="http://wp.loc">
-        <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
     </option>
   </component>
